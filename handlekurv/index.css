@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    align-items: center;
+}
+
+.header-link {
+    padding: 2rem;
+}
+
+#basket {    
+    font-size: 2rem;
+    color: green;
+    margin-left: auto;
+}

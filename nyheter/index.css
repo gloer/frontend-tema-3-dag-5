@@ -16,13 +16,14 @@ body {
     padding: 1rem;
 }
 
+.nyhet-img {
+    width: 100%;
+}
+
 .live {
     background-color: black;
 }
 
-.nyhet-img {
-    width: 100%;
-}
 
 .nyhet-link {
     color: #333;
@@ -30,5 +31,28 @@ body {
 }  
 
 .live .nyhet-link {
-    color: #eee;
+    color: #eee; 
+}
+
+.live .nyhet-ingress {
+    text-transform: uppercase;
+    font-weight: 700;  
+}
+
+.live .nyhet-ingress::before {
+    content: " ";
+    background-color: red;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+    border-radius: 50%; 
+    opacity: 1;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    to {
+        opacity: 0;
+    }
 }
