@@ -1,0 +1,22 @@
+
+body {
+    font-family: sans-serif;
+}
+
+.nyheter {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nyhet {
+    background-color: #eee;
+    padding: 1rem;
+}
+
+.nyhet-link {
+    color: #333;
+    text-decoration: none;
+}
