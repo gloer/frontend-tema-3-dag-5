@@ -16,7 +16,19 @@ body {
     padding: 1rem;
 }
 
+.live {
+    background-color: black;
+}
+
+.nyhet-img {
+    width: 100%;
+}
+
 .nyhet-link {
     color: #333;
     text-decoration: none;
+}  
+
+.live .nyhet-link {
+    color: #eee;
 }
